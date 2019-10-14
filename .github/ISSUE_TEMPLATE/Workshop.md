@@ -1,6 +1,6 @@
 ---
-name: "👩‍💻👨‍💻 Workshop"
-title: "👩‍💻👨‍💻 Workshop : "
+name: "Workshop"
+title: "Workshop : "
 about: Request a workshop.
 labels: workshop
 ---

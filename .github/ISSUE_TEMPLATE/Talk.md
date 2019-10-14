@@ -1,6 +1,6 @@
 ---
-name: "👩‍💻👨‍💻 Talk"
-title: "👩‍💻👨‍💻 Talk : "
+name: "Talk"
+title: "Talk : "
 about: Propose a Talk.
 labels: talk
 ---
