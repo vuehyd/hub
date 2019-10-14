@@ -3,6 +3,7 @@ const { events } = require("./plugins/events");
 module.exports = {
   title: "VueHYD",
   description: "Vue Meetup in Hyderbad, India",
+  base: "/hub/",
   ga: "UA-38503997-3",
   plugins: [require("./plugins/events")],
   head: [
