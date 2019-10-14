@@ -1,22 +1,23 @@
 {
   "private": false,
-  "name": "vue-bangalore",
+  "name": "vue-hyd-hub",
   "version": "0.0.0",
-  "description": "A Vue meetup in Bangalore, India.",
+  "description": "A Vue meetup in Hyderabad, India.",
   "scripts": {
     "build": "vuepress build .",
     "serve": "vuepress dev ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/znck/vue-bangalore.git"
+    "url": "git+https://github.com/vuehyd/hub.git"
   },
+  "maintainer": "Praveen Puglia <praveenpuglia@gmail.com> (https://praveenpuglia.com)",
   "author": "Rahul Kadyan <hi@znck.me> (https://znck.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/znck/vue-bangalore/issues"
+    "url": "https://github.com/vuehyd/hub/issues"
   },
-  "homepage": "https://blr.vue.community",
+  "homepage": "https://hyd.vue.community",
   "dependencies": {
     "frontmatter": "^0.0.3",
     "globby": "^9.2.0",
