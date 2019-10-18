@@ -3,7 +3,6 @@ const { events } = require("./plugins/events");
 module.exports = {
   title: "VueHYD",
   description: "Vue Meetup in Hyderbad, India",
-  base: "/hub/",
   ga: "UA-38503997-3",
   plugins: [require("./plugins/events")],
   head: [
@@ -108,11 +107,7 @@ module.exports = {
           },
           {
             text: "Propose a Talk",
-            link: "http://bit.ly/VueHYDcfp"
-          },
-          {
-            text: "Newsletter",
-            link: "https://buttondown.email/VueHYD"
+            link: "http://bit.ly/vue-hyd-cfp"
           },
           {
             text: "Code of Conduct",
@@ -122,16 +117,8 @@ module.exports = {
             text: "Join Us",
             items: [
               {
-                text: "Meetup",
-                link: "https://meetup.com/vue-hyd"
-              },
-              {
                 text: "Twitter",
                 link: "https://twitter.com/vuehyd"
-              },
-              {
-                text: "WhatsApp",
-                link: "http://bit.ly/vuehyd-whatsapp"
               },
               {
                 text: "Facebook Page",
