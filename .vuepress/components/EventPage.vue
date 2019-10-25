@@ -2,16 +2,18 @@
   <div class="event">
     <header>
       <h1 class="title">
+        <span class="title-hashtag"
+          >Vue Hyderabad #{{ $page.frontmatter.id }}</span
+        >
+        <span class="title-text">{{ $page.frontmatter.title }}</span>
         <a
           :href="
-            'https://meetup.com/vue-hyderabad/events/' +
-              $page.frontmatter.meetup
+            `https://www.meetup.com/vue-hyderabad/events/${$page.frontmatter.meetup}`
           "
           target="_blank"
         >
-          <span class="title-hashtag">VueHYD #{{ $page.frontmatter.id }}</span>
+          <small>(RSVP)</small>
         </a>
-        <span class="title-text">{{ $page.frontmatter.title }}</span>
       </h1>
     </header>
 

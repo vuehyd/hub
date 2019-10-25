@@ -1,9 +1,9 @@
 const { events } = require("./plugins/events");
 
 module.exports = {
-  title: "VueHYD",
+  title: "Vue Hyderabad",
   description: "Vue Meetup in Hyderbad, India",
-  ga: "UA-38503997-3",
+  ga: "UA-150945049-1",
   plugins: [require("./plugins/events")],
   head: [
     [
@@ -119,6 +119,10 @@ module.exports = {
               {
                 text: "Twitter",
                 link: "https://twitter.com/vuehyd"
+              },
+              {
+                text: "Meetup",
+                link: "https://www.meetup.com/vue-hyderabad/"
               },
               {
                 text: "Facebook Page",

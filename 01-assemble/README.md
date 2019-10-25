@@ -2,8 +2,8 @@
 id: 1
 title: Assemble
 date: 2019-11-16
-time: TBA
-meetup: TBA
+time: 2:00PM - 5:00PM
+meetup: 265812284
 venue:
   name: InnovationHQ
   map: https://goo.gl/maps/5rWU4k78htrFPSdA9
