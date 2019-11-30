@@ -6,6 +6,9 @@
           >Vue Hyderabad #{{ $page.frontmatter.id }}</span
         >
         <span class="title-text">{{ $page.frontmatter.title }}</span>
+      </h1>
+      <h2 class="subtitle">
+        Meetup Page -
         <a
           :href="
             `https://www.meetup.com/vue-hyderabad/events/${$page.frontmatter.meetup}`
@@ -14,15 +17,19 @@
         >
           <small>(RSVP)</small>
         </a>
-      </h1>
+      </h2>
     </header>
 
     <main class="agenda">
       <EventGallery :photos="$page.frontmatter.photos" />
 
       <h2>Agenda</h2>
-      <ul>
-        <li v-for="(item, index) in $page.frontmatter.agenda" :key="index">
+      <ul class="event-items">
+        <li
+          class="event-item"
+          v-for="(item, index) in $page.frontmatter.agenda"
+          :key="index"
+        >
           <component :is="use(item.type)" v-bind="item" />
         </li>
       </ul>
@@ -108,11 +115,27 @@ export default {
 </script>
 
 <style scoped>
+.title {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.subtitle {
+  border-bottom: none;
+  margin-top: 1rem;
+}
 .title-hashtag {
   opacity: 0.75;
   display: inline-block;
   margin-right: 1rem;
 }
+.event-items {
+  padding-left: 0;
+}
+.event-item {
+  margin-bottom: 2rem;
+  list-style: none;
+}
+.event-item::last-child {
+  margin-bottom: 0;
+}
 </style>
-
-

@@ -1,36 +1,49 @@
 <template>
-  <ItemRow>
-    <img slot="icon" :src="'//avatars.io/twitter/' + twitter" class="avatar">
-    <a :href="'https://twitter.com/' + twitter" target="_blank">
-      {{ name }}
-    </a>
-    {{ bio }}
+  <ItemRow class="wrapper--event-speaker">
+    <img
+      slot="icon"
+      :src="'//avatars.io/twitter/' + twitter"
+      class="avatar avatar--speaker"
+    />
+    <div class="speaker-description">
+      <a :href="'https://twitter.com/' + twitter" target="_blank">
+        {{ name }}
+      </a>
+      <p class="speaker-bio">
+        {{ bio }}
+      </p>
+    </div>
   </ItemRow>
 </template>
 
 <script>
 export default {
-  props: ['speaker', 'bio'],
+  props: ["speaker", "bio"],
   computed: {
-    name () {
-      return this.speaker.replace(/<[^>]+>/, '')
+    name() {
+      return this.speaker.replace(/<[^>]+>/, "");
     },
-    twitter () {
-      const matches = /<@([^>]+)>/.exec(this.speaker)
+    twitter() {
+      const matches = /<@([^>]+)>/.exec(this.speaker);
 
-      if (matches) return matches[1]
+      if (matches) return matches[1];
     }
   }
-}
+};
 </script>
 
 <style scoped>
-.wrapper {
-  display: -webkit-box !important;
-  align-items: center;
+.wrapper.wrapper--event-speaker {
+  display: grid;
+  align-items: unset;
+  grid-template-columns: 64px 1fr;
+  grid-gap: 1rem;
 }
-.avatar {
-  height: 5rem !important;
-  width: 5rem !important;
+.avatar.avatar--speaker {
+  height: 64px;
+  width: 64px;
+}
+.speaker-bio {
+  margin: 0.5rem 0;
 }
 </style>
