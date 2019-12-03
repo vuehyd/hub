@@ -5,8 +5,8 @@ date: 2019-12-14
 time: 2:00PM - 4:30PM
 meetup: 266340374
 venue:
-  name: TBA
-  # map: https://goo.gl/maps/5rWU4k78htrFPSdA9
+  name: FactSet Systems India Private Limited
+  map: https://www.google.com/maps/place/17%C2%B025'19.4%22N+78%C2%B022'28.5%22E/@17.422064,78.37459,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d17.422064!4d78.37459
 agenda:
   - title: The Art of Crafting Codemods
     type: talk
