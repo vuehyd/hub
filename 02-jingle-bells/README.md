@@ -1,12 +1,14 @@
 ---
 id: 2
-title: 🌲Jingle Bells
+title: 🎄Jingle Bells
 date: 2019-12-14
 time: 2:00PM - 4:30PM
 meetup: 266340374
 venue:
-  name: TBA
-  # map: https://goo.gl/maps/5rWU4k78htrFPSdA9
+  name: FactSet Systems India Private Limited, Divyashree SEZ - Orion Block 4, 9th floor Hyderabad
+  map:
+    embed: true
+    embedCode: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.785702828827!2d78.37239691493326!3d17.422068906389494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f8722f8c33%3A0x6cd17cd26a48e99e!2sFactSet%20Systems%20India%20Private%20Limited%2C%20DivyaSree%20Orion!5e0!3m2!1sen!2sin!4v1575357472280!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 agenda:
   - title: The Art of Crafting Codemods
     type: talk
@@ -33,6 +35,8 @@ agenda:
 #     sponsor: InnovationHQ<@hq_innovation>
 organizers:
   - Praveen Puglia <@praveenpuglia>
+  - Aravind Balla <@aravindballa>
+  - Krishna Nandula <@knandula>
 ---
 
 <EventPage />

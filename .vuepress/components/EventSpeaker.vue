@@ -1,5 +1,8 @@
 <template>
-  <ItemRow class="wrapper--event-speaker">
+  <ItemRow
+    class="wrapper--event-speaker"
+    :class="{ 'wrapper--event-organizer': organizer }"
+  >
     <img
       slot="icon"
       :src="'//avatars.io/twitter/' + twitter"
@@ -9,7 +12,7 @@
       <a :href="'https://twitter.com/' + twitter" target="_blank">
         {{ name }}
       </a>
-      <p class="speaker-bio">
+      <p class="speaker-bio" v-if="!organizer">
         {{ bio }}
       </p>
     </div>
@@ -18,7 +21,14 @@
 
 <script>
 export default {
-  props: ["speaker", "bio"],
+  props: {
+    speaker: {},
+    bio: {},
+    organizer: {
+      type: Boolean,
+      default: false
+    }
+  },
   computed: {
     name() {
       return this.speaker.replace(/<[^>]+>/, "");
@@ -38,6 +48,9 @@ export default {
   align-items: unset;
   grid-template-columns: 64px 1fr;
   grid-gap: 1rem;
+}
+.wrapper.wrapper--event-organizer {
+  align-items: center !important;
 }
 .avatar.avatar--speaker {
   height: 64px;

@@ -2,10 +2,10 @@
   <div class="event">
     <header>
       <h1 class="title">
-        <span class="title-hashtag"
-          >Vue Hyderabad #{{ $page.frontmatter.id }}</span
-        >
         <span class="title-text">{{ $page.frontmatter.title }}</span>
+        <span class="title-hashtag">
+          &mdash; Vue HYD #{{ $page.frontmatter.id }}
+        </span>
       </h1>
       <h2 class="subtitle">
         Meetup Page -
@@ -42,12 +42,20 @@
         <p><strong>Date:</strong> {{ date.toDateString() }}</p>
         <p><strong>Time:</strong> {{ $page.frontmatter.time }}</p>
         <p>
-          <strong>Venue:</strong> {{ $page.frontmatter.venue.name }} (<a
+          <strong>Venue:</strong> {{ $page.frontmatter.venue.name }}
+          <a
+            v-if="!$page.frontmatter.venue.map.embed"
             :href="$page.frontmatter.venue.map"
             target="_blank"
             rel="noopener noreferrer"
-            >see on map</a
-          >)
+            >(See on Google Map)
+          </a>
+          <template v-else>
+            <div
+              class="map-embed"
+              v-html="$page.frontmatter.venue.map.embedCode"
+            ></div>
+          </template>
         </p>
       </section>
 
@@ -70,6 +78,7 @@
 
       <h2>Organizers</h2>
       <EventSpeaker
+        organizer
         v-for="(item, index) in $page.frontmatter.organizers"
         :key="item"
         :speaker="item"
@@ -137,5 +146,9 @@ export default {
 }
 .event-item::last-child {
   margin-bottom: 0;
+}
+.map-embed {
+  margin-top: 1rem;
+  border: 4px solid #bdbdbd;
 }
 </style>
