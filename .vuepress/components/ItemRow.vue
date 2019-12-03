@@ -12,6 +12,9 @@
   display: flex;
   align-items: center;
 }
+.icon {
+  align-self: center;
+}
 .icon > * {
   height: 1.5rem;
   width: 1.5rem;

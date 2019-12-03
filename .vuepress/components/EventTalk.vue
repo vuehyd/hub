@@ -51,7 +51,9 @@ export default {
   padding: 1rem;
   box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.5);
 }
-
+.title {
+  margin-top: 0;
+}
 .recording {
   width: 100%;
   padding-top: 56.29%;
