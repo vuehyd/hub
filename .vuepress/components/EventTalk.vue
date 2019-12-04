@@ -1,6 +1,7 @@
 <template>
   <section class="talk">
-    <h3 class="title"><u>Talk</u>: {{ title }}</h3>
+    <div class="type">Talk</div>
+    <h3 class="title">{{ title }}</h3>
     <div class="recording" v-if="recording">
       <iframe
         :src="recording"
@@ -19,7 +20,7 @@
     </ItemRow>
     <ItemRow v-if="issue">
       <Icon name="github" slot="icon" />
-      <a :href="issue" target="_blank">{{ issue | filename }} </a>
+      <a :href="issue" target="_blank">{{ issue | filename }}</a>
     </ItemRow>
   </section>
 </template>
@@ -51,8 +52,23 @@ export default {
   padding: 1rem;
   box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.5);
 }
+.talk:hover {
+  transition: all 200ms ease-in-out 0s;
+  box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.type {
+  font-size: 1rem;
+  background-color: #3eaf7c;
+  display: inline;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
 .title {
-  margin-top: 0;
+  margin-top: 10px;
 }
 .recording {
   width: 100%;
