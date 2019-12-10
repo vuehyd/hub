@@ -22,17 +22,17 @@ agenda:
     description: I will be covering the importance of Web Components, and how they are natural evolution of the Web, along with a brief case study of how it helped bootstrap applications in a large enterprise.
     bio: I work at Pramati Technologies as a front end web developer, and spends all my free time studying about Bitcoin.
     # deck: https://www.canva.com/design/DADqrYoCIt4/XtSLABwMQSp_5PdECnZwZQ/view
-  - title: Being Finalized
+  - title: Vuex ORM
     type: talk
-    speaker: TBD
-    description: TBD
-    bio: TBD
+    speaker: Ayush Akhoury
+    description: I will be covering VueX ORM plugin. It  is a plugin for Vuex to enable Object-Relational Mapping access to the Vuex Store. It helps to deal with nested/relational data on the front-end by decoupling them into separate modules.
+    bio: Frontend Engineer at FactSet
     # deck: https://www.canva.com/design/DADqrYoCIt4/XtSLABwMQSp_5PdECnZwZQ/view
-# sponsors:
-#   - type: event
-#     sponsor: Voicezen<@voicezen>
-#   - type: venue
-#     sponsor: InnovationHQ<@hq_innovation>
+sponsors:
+  - type: T-Shirt
+    sponsor: Voicezen<@voicezen>
+  - type: Venue and Snacks
+    sponsor: FactSet <@FactSet>
 organizers:
   - Praveen Puglia <@praveenpuglia>
   - Aravind Balla <@aravindballa>

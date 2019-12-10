@@ -7,11 +7,24 @@
       slot="icon"
       :src="'//avatars.io/twitter/' + twitter"
       class="avatar avatar--speaker"
+      v-if="twitter"
+    />
+    <img
+      slot="icon"
+      src="http://tinygraphs.com/isogrids/tinygraphs?theme=frogideas&numcolors=4&size=64&fmt=svg"
+      class="avatar avatar--speaker"
+      v-else
     />
     <div class="speaker-description">
-      <a :href="'https://twitter.com/' + twitter" target="_blank">
+      <a
+        class="speaker-name"
+        v-if="twitter"
+        :href="'https://twitter.com/' + twitter"
+        target="_blank"
+      >
         {{ name }}
       </a>
+      <span class="speaker-name" v-else> {{ name }}</span>
       <p class="speaker-bio" v-if="!organizer">
         {{ bio }}
       </p>
@@ -58,5 +71,8 @@ export default {
 }
 .speaker-bio {
   margin: 0.5rem 0;
+}
+.speaker-name {
+  font-weight: 600;
 }
 </style>
