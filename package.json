@@ -21,6 +21,7 @@
   "dependencies": {
     "frontmatter": "^0.0.3",
     "globby": "^9.2.0",
+    "puppeteer": "^2.0.0",
     "vue-carousel": "^0.18.0"
   },
   "devDependencies": {
