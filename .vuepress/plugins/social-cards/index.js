@@ -44,7 +44,11 @@ module.exports = async function socialCardsPlugin(options, context) {
         title: talk.title.replace(/- (\d+)mins$/, ""),
         eventId: event.id,
         eventName: event.title,
-        date: new Date(event.date).toDateString(),
+        date: new Date(event.date).toLocaleString("en-US", {
+          month: "long",
+          day: "2-digit",
+          year: "numeric"
+        }),
         time: event.time,
         ...speaker
       });
