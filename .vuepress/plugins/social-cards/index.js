@@ -52,7 +52,10 @@ module.exports = async function socialCardsPlugin(options, context) {
       const page = await browser.newPage();
       await page.setContent(pageHtml);
       await page.screenshot({
-        path: path.join("social-cards", `${talk.title}.png`)
+        path: path.join(
+          "social-cards",
+          `${event.id}-${talk.title.toLowerCase().replace(/ /g, "-")}.png`
+        )
       });
 
       await page.close();
