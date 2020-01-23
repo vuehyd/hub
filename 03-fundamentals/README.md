@@ -15,15 +15,28 @@ agenda:
     speaker: Praveen Puglia <@praveenpuglia>
     description: Vue 3 is coming and with it a bunch of new features, improvements and superpowers that Vue 2 lacked. In this talk, I am going to walk through the most notable ones with a bunch of examples.
     bio: UI Wizard at Voicezen India. Love CSS & Vue.js. Organizer - Vue Hyderabad.
-    # deck: https://github.com/vuehyd/hub/blob/master/01-assemble/decks/assemble-talk-1.pdf
+    deck: http://slides.com/praveenpuglia/superfast-vue3#/
   - title: Hello GraphQL
     type: talk
     speaker: Sai Nihar <@nightraiser_>
     description: Introduction to GraphQL, showcasing the basics, the setup, paradigm and use cases.
     bio: Working at Pramati Technologies. A code freak, fullstack JS developer, tech enthusiast.
-    # deck: https://github.com/vuehyd/hub/blob/master/01-assemble/decks/assemble-talk-1.pdf
+    deck: https://github.com/vuehyd/hub/blob/master/03-fundamentals/decks/hello_graphql.pptx
+  - title: Everything You Need To Know About Vuex
+    type: talk
+    speaker: Vamshi Krishna <@Chsvk21>
+    description: >
+      Introduction to Vuex
+      • Importance
+      • State
+      • Getters
+      • Actions
+      • Mutations
+      • Example to tie in all the concepts together
+    bio: I run a small Startup named CynoHub, which at the moment is what I'm working full time on. In my free time I love to create programming courses, I also maintain a blog ( my point of Vue ) on Medium and occasionally I paint and play guitar.
+    deck: https://docs.google.com/presentation/d/14EBy_yv3pBVzR9nerh6Q8mKFhMT58O5zdKBnwz9WfEM/edit#slide=id.g4dc676206e_0_1218
 sponsors:
-  - type: Venue & Snacks 
+  - type: Venue & Snacks
     sponsor: ThoughtWorks <@thoughtworks>
 organizers:
   - Praveen Puglia <@praveenpuglia>
@@ -33,4 +46,4 @@ organizers:
 
 <EventPage />
 ## Google Photos Album 
-<!-- [https://photos.app.goo.gl/BU6QXzECrQBTG2dB9](https://photos.app.goo.gl/BU6QXzECrQBTG2dB9) -->
+[https://photos.app.goo.gl/YBhUrvfAVkqut5QcA](https://photos.app.goo.gl/YBhUrvfAVkqut5QcA)

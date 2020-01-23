@@ -68,6 +68,7 @@ export default {
 .avatar.avatar--speaker {
   height: 64px;
   width: 64px;
+  object-fit: cover;
 }
 .speaker-bio {
   margin: 0.5rem 0;
