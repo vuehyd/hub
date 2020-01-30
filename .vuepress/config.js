@@ -4,7 +4,7 @@ module.exports = {
   title: "Vue Hyderabad",
   description: "Vue Meetup in Hyderbad, India",
   ga: "UA-150945049-1",
-  plugins: [require("./plugins/events")],
+  plugins: [require("./plugins/events"), require("./plugins/social-cards")],
   head: [
     [
       "link",
