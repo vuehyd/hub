@@ -28,9 +28,8 @@ const getHtml = ({
       }
       .image img {
         position: absolute;
-        width: 460px;
-        top: 60px;
-        left: -110px;
+        height: 100%;
+        left: -335px;
         max-width: unset;
       }
       .vuehyd-logo {
@@ -44,7 +43,7 @@ const getHtml = ({
     <div class="card border-t-8 flex" style="border-color: #41B883;">
       <div class="image">
         <img
-          class=""
+          class="charminar"
           src="http://hyd.vue.community/charminar.svg"
         />
       </div>
