@@ -45,7 +45,7 @@ const getHtml = ({
       <div class="image">
         <img
           class=""
-          src="http://res.cloudinary.com/djeivq7td/image/upload/charminar-1-119696_l3pd95.png"
+          src="http://hyd.vue.community/charminar.svg"
         />
       </div>
       <div class="h-full mx-auto py-16 flex flex-col justify-around">
