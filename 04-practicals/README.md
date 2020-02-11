@@ -7,8 +7,8 @@ meetup: 268288016
 venue:
   name: TBD
   map:
-    embed: false
-    # embedCode: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.351019721236!2d78.35510701493337!3d17.442905505792577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9395ed638f61%3A0x49acd498fc2f1237!2sThoughtWorks%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1578588377859!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    embed: true
+    embedCode: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15226.07423961299!2d78.4034025!3d17.4348773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x423e5278c9144a5a!2sFission%20Labs!5e0!3m2!1sen!2sin!4v1581433046142!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 agenda:
   - title: Taking power back to CSS
     type: talk
@@ -38,8 +38,8 @@ agenda:
   #   bio: I run a small Startup named CynoHub, which at the moment is what I'm working full time on. In my free time I love to create programming courses, I also maintain a blog ( my point of Vue ) on Medium and occasionally I paint and play guitar.
   #   deck: https://docs.google.com/presentation/d/14EBy_yv3pBVzR9nerh6Q8mKFhMT58O5zdKBnwz9WfEM/edit#slide=id.g4dc676206e_0_1218
 sponsors:
-  - type: TBD
-    sponsor: TBD
+  - type: Venue & Snacks
+    sponsor: Fission Labs <@Fission_Labs>
 organizers:
   - Praveen Puglia <@praveenpuglia>
   - Aravind Balla <@aravindballa>
