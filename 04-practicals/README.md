@@ -23,6 +23,11 @@ agenda:
     speaker: Praveen Puglia <@praveenpuglia>
     description: The title has it all!
     bio: UI Wizard at Voicezen India. Love CSS & Vue.js. Organizer - Vue Hyderabad.
+  - title: Modern ways of end to end testing with Cypress
+    type: talk
+    speaker: M-Zubair Ahmed <@Md_ZubairAhmed>
+    description: Unit testing is great but there's nothing like an end to end test to give you peace of mind. We'll discover what end to end tests are and how Cypress allows us to write them.
+    bio: Self taught Computer Engineer. Frontend at @CloudmangoH
     # deck: http://slides.com/praveenpuglia/superfast-vue3#/
   # - title: Everything You Need To Know About Vuex
   #   type: talk
