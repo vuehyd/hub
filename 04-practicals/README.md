@@ -23,7 +23,7 @@ agenda:
     speaker: Praveen Puglia <@praveenpuglia>
     description: The title has it all!
     bio: UI Wizard at Voicezen India. Love CSS & Vue.js. Organizer - Vue Hyderabad.
-    deck: https://github.com/vuehyd/hub/blob/master/04-fundamentals/decks/15-tricks.pdf
+    deck: https://github.com/vuehyd/hub/blob/master/04-practicals/decks/15-tricks.pdf
   - title: Modern ways of end to end testing with Cypress
     type: talk
     speaker: M-Zubair Ahmed <@Md_ZubairAhmed>
